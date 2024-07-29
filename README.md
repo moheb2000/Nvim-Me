@@ -15,7 +15,7 @@ rm -rf ~/.local/state/nvim
 Then clone the repo in your neovim config path:
 
 ```
-git clone https://github.com/LunarVim/Neovim-from-scratch.git ~/.config/nvim
+git clone https://github.com/moheb2000/Nvim-Me.git ~/.config/nvim
 ```
 
 ## System Packages
