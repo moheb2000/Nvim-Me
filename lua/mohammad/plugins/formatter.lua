@@ -24,12 +24,12 @@ return {
 			},
 		})
 
-		vim.keymap.set({ "n", "v" }, "<leader>f", function()
+		function _FORMAT_CONFORM()
 			conform.format({
 				lsp_fallback = true,
 				async = false,
 				timeout_ms = 1000,
 			})
-		end, { desc = "Format file or range (in visual mode)" })
+		end
 	end,
 }

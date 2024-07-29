@@ -41,7 +41,11 @@ return {
 				"<cmd>Telescope diagnostics<cr>",
 				desc = "Workspace Diagnostics",
 			},
-			{ "<leader>lf", "<cmd>lua vim.lsp.buf.format{async=true}<cr>", desc = "Format" },
+			{
+				"<leader>lf",
+				"<cmd>lua _FORMAT_CONFORM()<cr>",
+				desc = "Format",
+			},
 			{ "<leader>li", "<cmd>LspInfo<cr>", desc = "Info" },
 			{
 				"<leader>lI",
